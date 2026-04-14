@@ -25,7 +25,7 @@ const ACHIEVEMENTS = [
   },
   {
     icon: 'star',
-    label: 'Fidoiy\no\'quvchi',
+    label: 'Fidoyi\no\'quvchi',
     color: '#3B82F6',
     bg: '#DBEAFE',
     check: ({ coins }) => coins >= 50,
@@ -35,7 +35,7 @@ const ACHIEVEMENTS = [
 
 const MENU = [
   { icon: 'download', label: 'Ijroylarim' },
-  { icon: 'heart', label: 'Sevimilar' },
+  { icon: 'heart', label: 'Sevimlilar' },
   { icon: 'settings', label: 'Sozlamalar' },
 ];
 

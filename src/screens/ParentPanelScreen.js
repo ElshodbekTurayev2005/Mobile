@@ -18,9 +18,9 @@ export default function ParentPanelScreen({ stats = {}, onBack }) {
   const score = testPct !== null ? Math.round(100 - testPct) : 50;
 
   const ACTIVITY = [
-    { icon: 'calendar',   label: 'Bugungi darslar', value: `${lessonsWatched} ta`,            color: '#3B82F6' },
-    { icon: 'file-text',  label: 'Test natijasi',    value: testPct !== null ? `${testPct}%` : '—', color: '#22C55E' },
-    { icon: 'award',      label: 'Yig\'ilgan tangalar', value: `${coins} 🪙`,                  color: '#F97316' },
+    { icon: 'calendar', label: 'Bugungi darslar', value: `${lessonsWatched} ta`, color: '#3B82F6' },
+    { icon: 'file-text', label: 'Test natijasi', value: testPct !== null ? `${testPct}%` : '—', color: '#22C55E' },
+    { icon: 'award', label: 'Yig\'ilgan tangalar', value: `${coins} 🪙`, color: '#F97316' },
   ];
 
   return (
@@ -71,7 +71,7 @@ export default function ParentPanelScreen({ stats = {}, onBack }) {
               <Text style={styles.scoreSmall}> 0%</Text>
             </View>
             <Text style={styles.scoreLevel}>
-              Qavf darajasi: {score < 30 ? 'Past 🟢' : score < 60 ? "O'rta 🟡" : 'Yuqori 🔴'}
+              Xavf darajasi: {score < 30 ? 'Past 🟢' : score < 60 ? "O'rta 🟡" : 'Yuqori 🔴'}
             </Text>
 
             {/* Gauge */}
