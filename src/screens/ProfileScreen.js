@@ -34,7 +34,7 @@ const ACHIEVEMENTS = [
 ];
 
 const MENU = [
-  { icon: 'download', label: 'Ijroylarim' },
+  { icon: 'download', label: 'Yuklab olingan' },
   { icon: 'heart', label: 'Sevimlilar' },
   { icon: 'settings', label: 'Sozlamalar' },
 ];
